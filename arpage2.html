@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/stylesar1.css">
+
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Learn Through AR</title>
+</head>
+
+<body>
+
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="./index.html" class="nav__logo">
+                <img src="assets/lg1.png" alt="" class="nav__logo-img"> Learn Through AR
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="./index.html" class="nav__link active-link">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="./index.html" class="nav__link">About</a>
+                    </li>
+
+        </nav>
+    </header>
+
+    <main class="main">
+        <div id="content">
+            <h2>Lathe Machine</h2>
+            
+            <h4> The Lathe Machine consists of following Main Parts:</h4>
+            <div class="home__buttons">
+                <a href="./manual1.html" class="button--link button--flex">Lab Manual <i class='bx bx-right-arrow-alt button__icon'></i></a>
+            </div>
+
+        </div>
+
+        <div id="aSide">
+            <!--  <h4> The Lathe Machine consists of following Main Parts:</h4>-->
+            <!--<ul type="disc">-->
+                <ol>
+                    <li>Bed</li>
+                    <li>Headstock</li>
+                    <li>Tail stock</li>
+                    <li>Carriage</li>
+                    <li>Saddle</li>
+                    <li>Cross Slide</li>
+                    <li>Compound rest</li>
+                    <li>Tool Post</li>
+                    <li>Apron</li>
+                    <li>Chuck</li>
+                    <li>Feed rod</li>
+                    <li>Lead Screw</li>
+                    <li>Spindle</li>
+                </ol>
+
+            <!-- 3D objsect -->
+            <!-- This inserts the 3D object inside the aside container -->
+            <model-viewer src="assets/Lathefinal.gltf" alt="pk_example" auto-rotate camera-controls ar ios-src="assets/Lathefinal">
+            </model-viewer>
+
+
+
+        </div>
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+
+            <img src="assets/ar1.png" alt="" class="footer__img-one">
+
+        </footer>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+</body>
+
+</html>
